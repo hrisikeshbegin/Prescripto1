@@ -7,11 +7,19 @@
 
 Prescripto is a full-stack web application designed to streamline the process of creating, managing, and sharing medical prescriptions digitally. It provides a secure and intuitive platform for healthcare professionals to manage patient records and generate e-prescriptions, reducing errors and improving efficiency.
 
+---
+
+## 🌐 Live Demo
+
+- **Frontend (Doctor/Patient Portal):** [https://prescripto1-nt3c.vercel.app/](https://prescripto1-nt3c.vercel.app/)
+- **Admin Panel:** [https://prescripto1-p8z5.vercel.app/](https://prescripto1-p8z5.vercel.app/)
+
+---
+
 ## 📸 Project Screenshot
 <p align="center">
   <img src="./frontend/src/assets/sss.png" alt="Prescripto UI" width="900">
 </p>
-
 
 ---
 
@@ -62,18 +70,26 @@ This project is built with the MERN stack and other technologies:
 
 The repository is organized into two main directories:
 
+
 Prescripto1/
-├── backend/        # Contains all the server-side code (Node.js, Express)
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   └── package.json
-└── frontend/       # Contains all the client-side code (React)
+├── backend/ # Contains all the server-side code (Node.js, Express)
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── server.js
+│ └── package.json
+├── frontend/ # Contains all the client-side code (React)
+│ ├── public/
+│ ├── src/
+│ └── package.json
+└── admin/ # Contains admin panel code (React)
 ├── public/
 ├── src/
 └── package.json
 
+
+
+---
 
 ## 🚀 Getting Started
 
@@ -90,7 +106,7 @@ Make sure you have the following software installed on your machine:
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/hrisikeshbegin/Prescripto1.git](https://github.com/hrisikeshbegin/Prescripto1.git)
+    git clone https://github.com/hrisikeshbegin/Prescripto1.git
     cd Prescripto1
     ```
 
@@ -115,9 +131,14 @@ Make sure you have the following software installed on your machine:
     ```sh
     cd frontend
     npm install
+    npm start
     ```
-    Start the frontend development server:
+
+4.  **Setup the Admin Panel:**
+    Open another terminal window.
     ```sh
+    cd admin
+    npm install
     npm start
     ```
 
@@ -125,7 +146,12 @@ Make sure you have the following software installed on your machine:
 
 ## 📖 Usage
 
-After installation, the application will be running on `http://localhost:3000`. You can register as a new doctor, log in, add patients, and start creating prescriptions. The backend API will be available at `http://localhost:5000`.
+After installation:
+- **Frontend** runs at `http://localhost:3000`
+- **Admin Panel** runs at `http://localhost:5173`
+- **Backend API** runs at `http://localhost:5000`
+
+You can register as a new doctor, log in, add patients, and start creating prescriptions.
 
 ---
 
