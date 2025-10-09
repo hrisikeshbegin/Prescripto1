@@ -7,7 +7,8 @@
 
 Prescripto is a full-stack web application designed to streamline the process of creating, managing, and sharing medical prescriptions digitally. It provides a secure and intuitive platform for healthcare professionals to manage patient records and generate e-prescriptions, reducing errors and improving efficiency.
 
-![Project Screenshot](https://i.imgur.com/your-screenshot-url.png)
+![Project Screenshot](<img width="1908" height="969" alt="Screenshot 2025-10-09 133050" src="https://github.com/user-attachments/assets/4f79f5cc-c1b2-4706-b1a9-3ecc7bd90bb1" />
+)
 *Replace this with a screenshot of your application's dashboard.*
 
 ---
