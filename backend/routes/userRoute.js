@@ -3,6 +3,7 @@ import { loginUser, registerUser, getProfile, updateProfile, bookAppointment, li
 import upload from '../middleware/multer.js';
 import authUser from '../middleware/authUser.js';
 const userRouter = express.Router();
+import serverless from "serverless-http";
 
 userRouter.post("/register", registerUser)
 userRouter.post("/login", loginUser)
@@ -17,4 +18,4 @@ userRouter.post("/verifyRazorpay", authUser, verifyRazorpay)
 userRouter.post("/payment-stripe", authUser, paymentStripe)
 userRouter.post("/verifyStripe", authUser, verifyStripe)
 
-export default userRouter;
+export default serverless(userRouter);
